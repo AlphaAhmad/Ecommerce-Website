@@ -37,10 +37,8 @@ header{
 }
 
 .Profile{
-    display: inline;
-    margin: 70px;
+    display: inline-flex;
+    margin-left: 80px;
 }
 
-.ProfilePic{
-    display:flex
-}
+
