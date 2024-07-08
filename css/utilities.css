@@ -10,3 +10,9 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+/* this makes the image and text next to it horizontally equal */
+.pic-textAlign{
+    display: flex;
+    align-items: center;
+}

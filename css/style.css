@@ -1,14 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+}
+
+main{
+    /* background-color: red; */
+    height:130vh;
 }
 
 footer{
     background-color: blue;
     width: 100vw;
     height: 10vh;
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 header{
-    display: inline-block;
+    display:flex;
+    height:50px
 }
+
+/* ++++++++++++++++ classes type css +++++++++++++++++++*/
+.search{
+    height: 30px;
+    margin-left: 50px;    
+    width: 40vw;
+    padding: 6px;
+    border: none;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.Profile{
+    display: inline-flex;
+    margin-left: 80px;
+}
+
+
