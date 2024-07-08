@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: blue;
+    width: 100vw;
+    height: 10vh;
+}
+
+header{
+    display: inline-block;
+}

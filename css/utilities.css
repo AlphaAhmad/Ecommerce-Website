@@ -1,0 +1,12 @@
+footer{
+    text-align: center;
+    align-content: center;
+
+}
+
+/* this can centre a div inside a container */
+.flex-all-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
