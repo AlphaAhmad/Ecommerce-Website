@@ -13,6 +13,16 @@ footer{
 
 /* this makes the image and text next to it horizontally equal */
 .pic-textAlign{
-    display: flex;
+    display:flex;
     align-items: center;
+}
+
+.pic-textAlign:hover{
+    font-weight: bold;
+}
+
+
+a{
+    text-decoration:none;
+    color: white;
 }
