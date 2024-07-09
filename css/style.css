@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 
+:root {
+    --background-color: #3f25e3;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,11 +12,12 @@
 
 main{
     /* background-color: red; */
+    min-height: calc(100vh - 50px - 10vh);
     height:130vh;
 }
 
 footer{
-    background-color: blue;
+    background-color: var(--background-color);
     width: 100vw;
     height: 10vh;
     font-family: "Wittgenstein", serif;
@@ -21,14 +27,16 @@ footer{
 }
 
 header{
+    background-color: var(--background-color);
     display:flex;
-    height:50px
+    height:50px;
+    width:100vw;
 }
 
 /* ++++++++++++++++ classes type css +++++++++++++++++++*/
 .search{
     height: 30px;
-    margin-left: 50px;    
+    margin-left: 10vw;    
     width: 40vw;
     padding: 6px;
     border: none;
@@ -41,4 +49,14 @@ header{
     margin-left: 80px;
 }
 
+.profilelink{
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
 
+.slide{
+    margin:12px auto;
+    width:58vw;
+}
