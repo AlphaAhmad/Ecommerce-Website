@@ -1,28 +1,88 @@
-footer{
+:root {
+    --background-color: #3f25e3;
+    --card-bg-color: white;
+}
+
+footer {
     text-align: center;
     align-content: center;
 
 }
 
 /* this can centre a div inside a container */
-.flex-all-centre{
+.flex-all-centre {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /* this makes the image and text next to it horizontally equal */
-.pic-textAlign{
-    display:flex;
+.pic-textAlign {
+    display: flex;
     align-items: center;
 }
 
-.pic-textAlign:hover{
+.pic-textAlign:hover {
     font-weight: bold;
+    overflow: auto;
 }
 
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
     color: white;
+}
+
+.card {
+    background-color: var(--card-bg-color);
+    width: 97vw;
+    margin: auto;
+    height: 55vh;
+    align-content: center;
+}
+
+.product {
+    display: inline-block;
+    position: relative;
+    width: 40vh;
+    margin: 5px;
+    height: 400px;
+    align-content: center;
+    text-align: center;
+    border: 2px solid lightgray;
+    border-style: double;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+
+.text-beautify {
+    font-family: "Wittgenstein", serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.cardDescription {
+    padding-bottom: 15px;
+    padding-left: 50px;
+    font-size: 27px;
+    position: sticky;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 3px;
+    padding-bottom: 15px;
+}
+
+hr::after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
 }

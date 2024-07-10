@@ -2,21 +2,25 @@
 
 :root {
     --background-color: #3f25e3;
+    --card-bg-color: aqua;
 }
 
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-main{
-    /* background-color: red; */
-    min-height: calc(100vh - 50px - 10vh);
-    height:130vh;
+html {
+    background-color: rgb(228, 224, 224);
 }
 
-footer{
+main {
+    /* background-color: red; */
+    min-height: calc(100vh - 50px - 10vh);
+    height: 130vh;
+}
+
+footer {
     background-color: var(--background-color);
     width: 100vw;
     height: 10vh;
@@ -26,17 +30,17 @@ footer{
     font-style: normal;
 }
 
-header{
+header {
     background-color: var(--background-color);
-    display:flex;
-    height:50px;
-    width:100vw;
+    display: flex;
+    height: 50px;
+    width: 100vw;
 }
 
 /* ++++++++++++++++ classes type css +++++++++++++++++++*/
-.search{
+.search {
     height: 30px;
-    margin-left: 10vw;    
+    margin-left: 10vw;
     width: 40vw;
     padding: 6px;
     border: none;
@@ -44,19 +48,28 @@ header{
     font-size: 17px;
 }
 
-.Profile{
+.Profile {
     display: inline-flex;
     margin-left: 80px;
+    overflow: hidden;
 }
 
-.profilelink{
+.profilelink {
     font-family: "Wittgenstein", serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
 }
 
-.slide{
-    margin:12px auto;
-    width:58vw;
+.slide {
+    margin: 12px auto;
+    width: 58vw;
+}
+
+.productImg {
+    height: 300px;
+}
+
+.productImg:hover {
+    height: 310px;
 }
